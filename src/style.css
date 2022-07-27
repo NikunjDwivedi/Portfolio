@@ -1,0 +1,191 @@
+section {
+  border: solid white 2px;
+    background-color: whitesmoke;
+
+}
+
+.hero {
+    background-color: rosybrown;
+    height: 100vh;
+    color: pink;
+    font-size: 25px;
+    margin: 0;
+    
+}
+.hero-area {
+    display: flex;
+    height: 100%;
+ 
+    justify-content: space-between;
+} 
+footer {
+height: 300px;
+background-color: rosybrown;
+color: pink;
+text-align: center;
+padding: 30px;
+margin-top: 30px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 780px;
+justify-content: space-around;
+font-size: 30px;
+margin: 30px;
+}
+li {
+    height: 30px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+.hero-text {
+    margin-left: 30px;
+    margin-bottom: 350px;
+    
+   }
+.button {
+   width: 130px;
+   height: 32px;
+   border-radius: 20px; 
+   color: pink;
+   background-color: palevioletred;
+   text-align: center;
+}
+.button:hover {
+    background-color: lightcoral;
+}
+.button:active {
+background-color: lightcoral;
+}
+
+
+.socials {
+    padding-bottom: 150px;
+    
+   
+    
+}
+li:hover {
+    background-color: rgb(212, 164, 164);
+    
+}
+.logo {
+    height: 75px;
+     margin: 30px;
+     border-radius: 50%;
+     
+} 
+.social {
+    margin: 25px;
+    
+}
+.sub-sec {
+display: flex;
+justify-content: space-around;
+padding: 90px;
+}
+.sub-sec2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+    }
+.sub-sec1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 90px;
+}
+.info {
+
+}
+h2 {
+    font-size: 60px;
+
+}
+.headshot {
+    width: 320px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+.headshot-container {
+display: flex;
+align-items: centre;
+}
+.projectcard {
+    width: 450px;
+    height: 360px;
+  box-shadow: 5px 5px 12px rgb(169, 165, 165);
+  margin: 10px;
+  
+  
+}
+.projectcard:hover {
+    background-color: rgb(235, 232, 232)
+}
+.projectcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+.projectimage {
+    margin: 20px;
+    width: 250px;
+
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.projectlink {
+    text-decoration: none;
+    color: palevioletred;
+}
+a {
+    text-decoration: none;
+    color: pink;
+}
+@media only screen and (max-with: 1000px) {
+    .projectcontainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.hamburger {
+   display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: black;
+        font-size: 35px;
+    }
+.ul {
+    display: none;
+}
+}
+body {
+
+}
